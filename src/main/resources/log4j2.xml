@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <!-- Console Appender -->
+        <console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] [Thread-%T] - %msg%n" />
+        </console>
+
+        <!-- General File Appender -->
+        <file name="FileLogger" filename="logs/app.log" append="true">
+            <filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="ACCEPT" />
+            </filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] [Thread-%T] - %msg%n" />
+        </file>
+
+        <!-- Error File Appender -->
+        <file name="ErrorFileLogger" filename="logs/error.log" append="true">
+            <filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+            </filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] [Thread-%T] - %msg%n" />
+        </file>
+    </appenders>
+
+    <loggers>
+        <logger name="com.orangehrm" level="trace" additivity="false">
+            <appender-ref ref="Console" />
+            <appender-ref ref="FileLogger" />
+            <appender-ref ref="ErrorFileLogger" />
+        </logger>
+
+        <logger name="com.listeners" level="info" additivity="false">
+            <appender-ref ref="Console" />
+            <appender-ref ref="FileLogger" />
+            <appender-ref ref="ErrorFileLogger" />
+        </logger>
+
+        <root level="info">
+            <appender-ref ref="Console" />
+            <appender-ref ref="FileLogger" />
+            <appender-ref ref="ErrorFileLogger" />
+        </root>
+    </loggers>
+</configuration>
