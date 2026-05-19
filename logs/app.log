@@ -1874,3 +1874,158 @@ Session ID: 88e5b93a5eda7e612f4c986922940a4c
 2026-05-18 16:22:28 [TestNG-tests-1] [Thread-46] - Applied the border with color green to element: Element located using: By.xpath: //a[text()='Logout']
 2026-05-18 16:22:29 [TestNG-tests-1] [Thread-46] - clicked an element-->Element located using: By.xpath: //a[text()='Logout']
 2026-05-18 16:22:30 [TestNG-tests-1] [Thread-46] - WebDriver instance is closed.
+2026-05-18 17:02:43 [main] [Thread-1] - config.properties file loaded
+2026-05-18 17:02:43 [TestNG-tests-2] [Thread-46] - Setting up WebDriver for: HomePageTest on browser: fireFox
+2026-05-18 17:02:45 [TestNG-tests-1] [Thread-45] - Setting up WebDriver for: DBVerificationTest on browser: chrome
+2026-05-18 17:02:46 [TestNG-tests-1] [Thread-45] - ChromeDriver Instance is created.
+2026-05-18 17:02:46 [TestNG-tests-2] [Thread-46] - FirefoxDriver Instance is created.
+2026-05-18 17:02:57 [TestNG-tests-1] [Thread-45] - WebDriver instance is created.
+2026-05-18 17:02:57 [TestNG-tests-2] [Thread-46] - WebDriver instance is created.
+2026-05-18 17:02:59 [TestNG-tests-2] [Thread-46] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 46
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - for test verifyEmployeeNameVerificationFromDB ActionDriver initialized for thread: 45
+2026-05-18 17:02:59 [TestNG-tests-2] [Thread-46] - Applied the border with color green to element: Element with name: username
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with name: username
+2026-05-18 17:02:59 [TestNG-tests-2] [Thread-46] - Entered text on Element with name: username-->admin
+2026-05-18 17:02:59 [TestNG-tests-2] [Thread-46] - Applied the border with color green to element: Element with name: password
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - Entered text on Element with name: username-->admin
+2026-05-18 17:02:59 [TestNG-tests-2] [Thread-46] - Entered text on Element with name: password-->Cocoy123!@#
+2026-05-18 17:02:59 [TestNG-tests-2] [Thread-46] - Applied the border with color green to element: Element with text: Login
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with name: password
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - Entered text on Element with name: password-->Cocoy123!@#
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Login
+2026-05-18 17:02:59 [TestNG-tests-1] [Thread-45] - clicked an element-->Element with text: Login
+2026-05-18 17:03:00 [TestNG-tests-2] [Thread-46] - clicked an element-->Element with text: Login
+2026-05-18 17:03:00 [TestNG-tests-1] [Thread-45] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PIM']"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f319860aa3691404a5c69d3c05cd13a2, findElement {using=xpath, value=//span[text()='PIM']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61949}, goog:processID: 34232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61949/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f319860aa3691404a5c69d3c05cd13a2
+2026-05-18 17:03:01 [TestNG-tests-2] [Thread-46] - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-18 17:03:01 [TestNG-tests-2] [Thread-46] - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-18 17:03:01 [TestNG-tests-2] [Thread-46] - Applied the border with color green to element: Element with text: John paul Chang
+2026-05-18 17:03:01 [TestNG-tests-2] [Thread-46] - clicked an element-->Element with text: John paul Chang
+2026-05-18 17:03:01 [TestNG-tests-2] [Thread-46] - Applied the border with color green to element: Element with text: Logout
+2026-05-18 17:03:03 [TestNG-tests-2] [Thread-46] - clicked an element-->Element with text: Logout
+2026-05-18 17:03:03 [TestNG-tests-1] [Thread-45] - clicked an element-->Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PIM']"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f319860aa3691404a5c69d3c05cd13a2, findElement {using=xpath, value=//span[text()='PIM']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61949}, goog:processID: 34232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61949/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f319860aa3691404a5c69d3c05cd13a2
+2026-05-18 17:03:03 [TestNG-tests-2] [Thread-46] - WebDriver instance is closed.
+2026-05-18 17:03:03 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with placeholder: Type for hints...
+2026-05-18 17:03:04 [TestNG-tests-1] [Thread-45] - Entered text on Element with placeholder: Type for hints...-->john paul
+2026-05-18 17:03:04 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Search
+2026-05-18 17:03:04 [TestNG-tests-1] [Thread-45] - clicked an element-->Element with text: Search
+2026-05-18 17:03:04 [TestNG-tests-1] [Thread-45] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[3]"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f319860aa3691404a5c69d3c05cd13a2, findElement {using=xpath, value=//div[@class='oxd-table-card']/div/div[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61949}, goog:processID: 34232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61949/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f319860aa3691404a5c69d3c05cd13a2
+2026-05-18 17:03:04 [TestNG-tests-1] [Thread-45] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[3]"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f319860aa3691404a5c69d3c05cd13a2, findElement {using=xpath, value=//div[@class='oxd-table-card']/div/div[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61949}, goog:processID: 34232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61949/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f319860aa3691404a5c69d3c05cd13a2
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Starting DB Connection...
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - DB Connection Successful
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Executing query: SELECT emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id =1
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Query Executed Successfully
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Employee Data Fetched: {firstName=John paul, lastName=Chang, middleName=}
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: John paul
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Texts are Matching:John paul equals John paul
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Chang
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Texts are Matching:Chang equals Chang
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - WebDriver instance is closed.
+2026-05-18 17:03:05 [TestNG-tests-1] [Thread-45] - Setting up WebDriver for: DBVerificationTest on browser: chrome
+2026-05-18 17:03:06 [TestNG-tests-1] [Thread-45] - ChromeDriver Instance is created.
+2026-05-18 17:03:17 [TestNG-tests-1] [Thread-45] - WebDriver instance is created.
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - for test verifyEmployeeNameVerificationFromDB ActionDriver initialized for thread: 45
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with name: username
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - Entered text on Element with name: username-->admin
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with name: password
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - Entered text on Element with name: password-->Cocoy123!@#
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Login
+2026-05-18 17:03:19 [TestNG-tests-1] [Thread-45] - clicked an element-->Element with text: Login
+2026-05-18 17:03:20 [TestNG-tests-1] [Thread-45] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PIM']"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbf2d1f5c23721480de2a353a2706076, findElement {using=xpath, value=//span[text()='PIM']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52924}, goog:processID: 2348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52924/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbf2d1f5c23721480de2a353a2706076
+2026-05-18 17:03:21 [TestNG-tests-1] [Thread-45] - clicked an element-->Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PIM']"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbf2d1f5c23721480de2a353a2706076, findElement {using=xpath, value=//span[text()='PIM']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52924}, goog:processID: 2348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52924/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbf2d1f5c23721480de2a353a2706076
+2026-05-18 17:03:22 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with placeholder: Type for hints...
+2026-05-18 17:03:22 [TestNG-tests-1] [Thread-45] - Entered text on Element with placeholder: Type for hints...-->wachum
+2026-05-18 17:03:22 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Search
+2026-05-18 17:03:22 [TestNG-tests-1] [Thread-45] - clicked an element-->Element with text: Search
+2026-05-18 17:03:22 [TestNG-tests-1] [Thread-45] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[3]"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbf2d1f5c23721480de2a353a2706076, findElement {using=xpath, value=//div[@class='oxd-table-card']/div/div[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52924}, goog:processID: 2348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52924/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbf2d1f5c23721480de2a353a2706076
+2026-05-18 17:03:22 [TestNG-tests-1] [Thread-45] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[3]"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbf2d1f5c23721480de2a353a2706076, findElement {using=xpath, value=//div[@class='oxd-table-card']/div/div[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52924}, goog:processID: 2348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52924/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbf2d1f5c23721480de2a353a2706076
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Starting DB Connection...
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - DB Connection Successful
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Executing query: SELECT emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id =2
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Query Executed Successfully
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Employee Data Fetched: {firstName=wachum, lastName=pong, middleName=}
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: wachum
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Texts are Matching:wachum equals wachum
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: pong
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Texts are Matching:pong equals pong
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - WebDriver instance is closed.
+2026-05-18 17:03:23 [TestNG-tests-1] [Thread-45] - Setting up WebDriver for: HomePageTest on browser: chrome
+2026-05-18 17:03:24 [TestNG-tests-1] [Thread-45] - ChromeDriver Instance is created.
+2026-05-18 17:03:35 [TestNG-tests-1] [Thread-45] - WebDriver instance is created.
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 45
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with name: username
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - Entered text on Element with name: username-->admin
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with name: password
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - Entered text on Element with name: password-->Cocoy123!@#
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Login
+2026-05-18 17:03:37 [TestNG-tests-1] [Thread-45] - clicked an element-->Element with text: Login
+2026-05-18 17:03:39 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-18 17:03:39 [TestNG-tests-1] [Thread-45] - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-18 17:03:39 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: John paul Chang
+2026-05-18 17:03:39 [TestNG-tests-1] [Thread-45] - clicked an element-->Element with text: John paul Chang
+2026-05-18 17:03:39 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Logout
+2026-05-18 17:03:40 [TestNG-tests-1] [Thread-45] - clicked an element-->Element located using: By.xpath: //a[text()='Logout']
+2026-05-18 17:03:40 [TestNG-tests-1] [Thread-45] - WebDriver instance is closed.
