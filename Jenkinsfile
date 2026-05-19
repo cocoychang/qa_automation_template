@@ -1,7 +1,7 @@
 pipeline{
 agent any
     tools {
-        maven 'maven-3.9.9'
+        maven 'Maven1'
     }
 
     stages {
@@ -32,6 +32,6 @@ agent any
                         always {
                             archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
                         }
-                        }
+                    }
 
 }}
