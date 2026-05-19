@@ -27,7 +27,7 @@ public class ExtentManager {
             String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 
             // Create a subdirectory with timestamp for each test run
-            String reportDir = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/" + timeStamp;
+            String reportDir = System.getProperty("user.dir") + "src/test/resources/ExtentReport/latest"+ timeStamp;
             File reportFolder = new File(reportDir);
 
             // Create the directory if it doesn't exist
@@ -36,7 +36,7 @@ public class ExtentManager {
             }
 
             // Generate report in the timestamped directory
-            String reportPath = reportDir + "/index.html";
+            String reportPath = reportDir + "/ExtentReport.html";
 
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
             spark.config().setReportName("Automation Test Report");
