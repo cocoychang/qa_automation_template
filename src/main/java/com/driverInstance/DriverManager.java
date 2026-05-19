@@ -105,7 +105,11 @@ public class DriverManager {
                 throw new IllegalArgumentException("Browser Not Supported:" + browser);
             }
         }
-        getDriver().get(BaseClass.getProp().getProperty("url_local"));
+        if(seleniumGrid){
+            getDriver().get(BaseClass.getProp().getProperty("url_grid"));
+        }else {
+            getDriver().get(BaseClass.getProp().getProperty("url_local"));
+        }
         Thread.sleep(10000);
     }
     public static WebDriver getDriver() {
