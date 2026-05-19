@@ -27,7 +27,7 @@ public class ExtentManager {
             String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 
             // Create a subdirectory with timestamp for each test run
-            String reportDir = System.getProperty("user.dir") + "src/test/resources/ExtentReport/latest"+ timeStamp;
+            String reportDir = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/" + timeStamp;
             File reportFolder = new File(reportDir);
 
             // Create the directory if it doesn't exist
