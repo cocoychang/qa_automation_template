@@ -89,8 +89,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
+          username: ${{ Secrets.EMAIL_USERNAME }}
+          password: ${{ Secrets.EMAIL_PASSWORD }}
           subject: "❌ Selenium Tests Failed"
           to: cocoy@gmail.com
           from: GitHub Actions
