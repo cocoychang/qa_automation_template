@@ -63,6 +63,10 @@ jobs:
             target/surefire-reports/
             src/test/resources/ExtentReport/
             logs/
+      - name: Debug Secrets Check
+        run: |
+          if [ -z "${{ secrets.EMAIL_USERNAME }}" ]; then echo "USERNAME MISSING"; fi
+          if [ -z "${{ secrets.EMAIL_PASSWORD }}" ]; then echo "PASSWORD MISSING"; fi
       - name: Send Email Notification
         uses: dawidd6/action-send-mail@v3
         with:
@@ -89,8 +93,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: ${{ Secrets.EMAIL_USERNAME }}
-          password: ${{ Secrets.EMAIL_PASSWORD }}
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "❌ Selenium Tests Failed"
           to: cocoy@gmail.com
           from: GitHub Actions
