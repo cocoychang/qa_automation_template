@@ -3,6 +3,9 @@ name: QA Automation Tests (Parallel)
 on:
   push:
     branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+    types: [ opened, synchronize, reopened ]
   workflow_dispatch:
 
 jobs:
@@ -60,3 +63,35 @@ jobs:
             target/surefire-reports/
             src/test/resources/ExtentReport/
             logs/
+      - name: Send Email Notification
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Selenium Test Execution Result"
+          to: cocoychang@gmail.com
+          from: GitHub Actions
+          body: |
+            Hello,
+
+            Your Selenium TestNG execution has completed.
+
+            Check the artifacts for detailed reports.
+
+            Sincerely,
+            GitHub Actions CI  
+            
+      - name: Send Failure Email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "❌ Selenium Tests Failed"
+          to: cocoy@gmail.com
+          from: GitHub Actions
+          body: "Tests failed. Please check GitHub Actions logs. Artifacts may contain more details."
