@@ -9,7 +9,7 @@
 name: Java CI with Maven
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
@@ -32,7 +32,7 @@ jobs:
       run: mvn clean test -DXmlfile= testng.xml
 
     - name: Upload test results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: test-results
         path: src/test/resources/extentReport/*
