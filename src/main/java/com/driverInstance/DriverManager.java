@@ -108,9 +108,8 @@ public class DriverManager {
         if(seleniumGrid){
             getDriver().get(BaseClass.getProp().getProperty("url_grid"));
         }else {
-            getDriver().get(BaseClass.getProp().getProperty("url_local"));
+            getDriver().get(BaseClass.getProp().getProperty("url_base"));
         }
-        Thread.sleep(10000);
     }
     public static WebDriver getDriver() {
         if (driver.get() == null) {

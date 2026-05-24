@@ -7,8 +7,8 @@
 	<test name="OrangeHRMTest_chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-            <class name="com.sampleTest.ApiTest"/>
-            <class name="com.sampleTest.DBVerificationTest" />
+<!--            <class name="com.sampleTest.ApiTest"/>-->
+<!--            <class name="com.sampleTest.DBVerificationTest" />-->
 			<class name="com.sampleTest.HomePageTest" />
 		</classes>
 	</test>

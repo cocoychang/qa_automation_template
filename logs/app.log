@@ -2649,3 +2649,155 @@ Session ID: f24fb9a32d51b84f16e2e2d53d028fd5
 2026-05-19 15:43:33 [TestNG-tests-1] [Thread-45] - Applied the border with color green to element: Element with text: Logout
 2026-05-19 15:43:33 [TestNG-tests-1] [Thread-45] - clicked an element-->Element located using: By.xpath: //a[text()='Logout']
 2026-05-19 15:43:34 [TestNG-tests-1] [Thread-45] - WebDriver instance is closed.
+2026-05-24 08:50:33 [main] [Thread-1] - config.properties file loaded
+2026-05-24 08:50:34 [TestNG-tests-2] [Thread-44] - Setting up WebDriver for: HomePageTest on browser: fireFox
+2026-05-24 08:50:36 [TestNG-tests-1] [Thread-43] - Setting up WebDriver for: DBVerificationTest on browser: chrome
+2026-05-24 08:50:36 [TestNG-tests-1] [Thread-43] - Setting up WebDriver for: HomePageTest on browser: chrome
+2026-05-24 08:51:21 [main] [Thread-1] - config.properties file loaded
+2026-05-24 08:51:22 [TestNG-tests-2] [Thread-44] - Setting up WebDriver for: HomePageTest on browser: fireFox
+2026-05-24 08:51:23 [TestNG-tests-1] [Thread-43] - Setting up WebDriver for: DBVerificationTest on browser: chrome
+2026-05-24 08:51:30 [TestNG-tests-1] [Thread-43] - ChromeDriver Instance is created.
+2026-05-24 08:51:38 [TestNG-tests-1] [Thread-43] - WebDriver instance is created.
+2026-05-24 08:51:40 [TestNG-tests-1] [Thread-43] - for test verifyEmployeeNameVerificationFromDB ActionDriver initialized for thread: 43
+2026-05-24 08:51:45 [TestNG-tests-2] [Thread-44] - FirefoxDriver Instance is created.
+2026-05-24 08:51:54 [TestNG-tests-2] [Thread-44] - WebDriver instance is created.
+2026-05-24 08:51:56 [TestNG-tests-2] [Thread-44] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 44
+2026-05-24 08:52:11 [TestNG-tests-1] [Thread-43] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ac11819a701433213509c391c2eb66c, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63707}, goog:processID: 6624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63707/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac11819a701433213509c391c2eb66c
+2026-05-24 08:52:11 [TestNG-tests-1] [Thread-43] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ac11819a701433213509c391c2eb66c, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63707}, goog:processID: 6624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63707/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac11819a701433213509c391c2eb66c
+2026-05-24 08:52:26 [TestNG-tests-2] [Thread-44] - Failed to apply the border to an element: Unable to locate element: *[name='username']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9d365ea7-f768-4155-a401-ca23fd173279, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.1, moz:accessibilityChecks: false, moz:buildID: 20260520211922, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 19988, moz:profile: C:\Users\cocoy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9d365ea7-f768-4155-a401-ca23fd173279
+2026-05-24 08:52:26 [TestNG-tests-2] [Thread-44] - Failed to apply the border to an element: Unable to locate element: *[name='username']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9d365ea7-f768-4155-a401-ca23fd173279, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.1, moz:accessibilityChecks: false, moz:buildID: 20260520211922, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 19988, moz:profile: C:\Users\cocoy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9d365ea7-f768-4155-a401-ca23fd173279
+2026-05-24 08:52:41 [TestNG-tests-1] [Thread-43] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ac11819a701433213509c391c2eb66c, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63707}, goog:processID: 6624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63707/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac11819a701433213509c391c2eb66c
+2026-05-24 08:52:41 [TestNG-tests-1] [Thread-43] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ac11819a701433213509c391c2eb66c, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63707}, goog:processID: 6624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63707/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac11819a701433213509c391c2eb66c
+2026-05-24 08:52:41 [TestNG-tests-1] [Thread-43] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ac11819a701433213509c391c2eb66c, findElement {using=xpath, value=//button[text()=' Login ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63707}, goog:processID: 6624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63707/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac11819a701433213509c391c2eb66c
+2026-05-24 09:05:27 [main] [Thread-1] - config.properties file loaded
+2026-05-24 09:05:27 [TestNG-tests-2] [Thread-45] - Setting up WebDriver for: HomePageTest on browser: fireFox
+2026-05-24 09:05:29 [TestNG-tests-1] [Thread-44] - Setting up WebDriver for: DBVerificationTest on browser: chrome
+2026-05-24 09:05:30 [TestNG-tests-2] [Thread-45] - FirefoxDriver Instance is created.
+2026-05-24 09:05:30 [TestNG-tests-1] [Thread-44] - ChromeDriver Instance is created.
+2026-05-24 09:05:38 [TestNG-tests-2] [Thread-45] - WebDriver instance is created.
+2026-05-24 09:05:38 [TestNG-tests-1] [Thread-44] - WebDriver instance is created.
+2026-05-24 09:05:40 [TestNG-tests-2] [Thread-45] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 45
+2026-05-24 09:05:40 [TestNG-tests-1] [Thread-44] - for test verifyEmployeeNameVerificationFromDB ActionDriver initialized for thread: 44
+2026-05-24 09:06:10 [TestNG-tests-1] [Thread-44] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a862a16e56873f03c90a9ab15fa7c301, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56424}, goog:processID: 6384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56424/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a862a16e56873f03c90a9ab15fa7c301
+2026-05-24 09:06:10 [TestNG-tests-1] [Thread-44] - Failed to apply the border to an element: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a862a16e56873f03c90a9ab15fa7c301, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\cocoy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56424}, goog:processID: 6384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56424/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a862a16e56873f03c90a9ab15fa7c301
+2026-05-24 09:06:10 [TestNG-tests-2] [Thread-45] - Failed to apply the border to an element: Unable to locate element: *[name='username']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [329e7299-f422-4b9e-9fd5-5e656c998c4f, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.1, moz:accessibilityChecks: false, moz:buildID: 20260520211922, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 2616, moz:profile: C:\Users\cocoy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 329e7299-f422-4b9e-9fd5-5e656c998c4f
+2026-05-24 09:06:10 [TestNG-tests-2] [Thread-45] - Failed to apply the border to an element: Unable to locate element: *[name='username']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [329e7299-f422-4b9e-9fd5-5e656c998c4f, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.1, moz:accessibilityChecks: false, moz:buildID: 20260520211922, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 2616, moz:profile: C:\Users\cocoy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 329e7299-f422-4b9e-9fd5-5e656c998c4f
+2026-05-24 09:42:04 [main] [Thread-1] - config.properties file loaded
+2026-05-24 09:42:05 [TestNG-tests-1] [Thread-42] - Setting up WebDriver for: HomePageTest on browser: chrome
+2026-05-24 09:42:05 [TestNG-tests-2] [Thread-43] - Setting up WebDriver for: HomePageTest on browser: fireFox
+2026-05-24 09:42:06 [TestNG-tests-1] [Thread-42] - ChromeDriver Instance is created.
+2026-05-24 09:42:07 [TestNG-tests-2] [Thread-43] - FirefoxDriver Instance is created.
+2026-05-24 09:42:09 [TestNG-tests-1] [Thread-42] - WebDriver instance is created.
+2026-05-24 09:42:10 [TestNG-tests-2] [Thread-43] - WebDriver instance is created.
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 42
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with name: username
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - Entered text on Element with name: username-->Admin
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with name: password
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - Entered text on Element with name: password-->admin123
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with text: Login
+2026-05-24 09:42:11 [TestNG-tests-1] [Thread-42] - clicked an element-->Element with text: Login
+2026-05-24 09:42:12 [TestNG-tests-2] [Thread-43] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 43
+2026-05-24 09:42:12 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with name: username
+2026-05-24 09:42:12 [TestNG-tests-2] [Thread-43] - Entered text on Element with name: username-->Admin
+2026-05-24 09:42:12 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with name: password
+2026-05-24 09:42:12 [TestNG-tests-2] [Thread-43] - Entered text on Element with name: password-->admin123
+2026-05-24 09:42:12 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with text: Login
+2026-05-24 09:42:13 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-24 09:42:13 [TestNG-tests-1] [Thread-42] - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-24 09:42:13 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: Login
+2026-05-24 09:42:13 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with text: Felipe de Oliveira
+2026-05-24 09:42:13 [TestNG-tests-1] [Thread-42] - clicked an element-->Element with text: Felipe de Oliveira
+2026-05-24 09:42:13 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with text: Logout
+2026-05-24 09:42:13 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-24 09:42:14 [TestNG-tests-2] [Thread-43] - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-05-24 09:42:14 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with text: Felipe de Oliveira
+2026-05-24 09:42:14 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: Felipe de Oliveira
+2026-05-24 09:42:14 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with text: Logout
+2026-05-24 09:42:14 [TestNG-tests-1] [Thread-42] - clicked an element-->Element located using: By.xpath: //a[text()='Logout']
+2026-05-24 09:42:14 [TestNG-tests-1] [Thread-42] - WebDriver instance is closed.
+2026-05-24 09:42:15 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: Logout
+2026-05-24 09:42:15 [TestNG-tests-2] [Thread-43] - WebDriver instance is closed.
