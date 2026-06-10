@@ -3,18 +3,17 @@ package com.commonMethods;
 import com.base.BaseClass;
 import com.utilities.LoggerManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
+
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
+import java.util.function.Function;
+
 import com.utilities.ExtentManager;
 import com.driverInstance.DriverManager;
 
@@ -22,6 +21,8 @@ public class ActionDriver {
 
     private WebDriver driver;
     private WebDriverWait wait;
+    private final Duration defaultTimeout = Duration.ofSeconds(30);
+    private final Duration defaultPolling = Duration.ofMillis(500);
     /**
      * The Constant logger.
      */
@@ -57,8 +58,6 @@ public class ActionDriver {
         try {
             waitForElementToBeVisible(by);
             applyBorder(by,"green");
-            // driver.findElement(by).clear();
-            // driver.findElement(by).sendKeys(value);
             WebElement element = driver.findElement(by);
             element.clear();
             element.sendKeys(value);
@@ -104,17 +103,6 @@ public class ActionDriver {
         }
         return false;
     }
-
-    /*
-     * Method to check if an element is displayed public boolean isDisplayed(By by)
-     * { try { waitForElementToBeVisible(by); boolean isDisplayed =
-     * driver.findElement(by).isDisplayed(); if (isDisplayed) {
-     * System.out.println("Element is Displayed"); return isDisplayed; } else {
-     * return isDisplayed; } } catch (Exception e) {
-     * System.out.println("Element is not displayed:"+e.getMessage()); return false;
-     * } }
-     */
-
     // Simplified the method and remove redundant conditions
     public boolean isDisplayed(By by) {
         try {
@@ -530,6 +518,55 @@ public class ActionDriver {
             applyBorder(by, "red");
             logger.error("Unable to upload file: " + e.getMessage());
         }
+    }
+    /**
+     * Core reusable Fluent Wait instance configuration.
+     */
+    private Wait<WebDriver> getFluentWait(Duration timeout, Duration polling) {
+        return new FluentWait<>(driver)
+                .withTimeout(timeout)
+                .pollingEvery(polling)
+                .ignoring(NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class)
+                .ignoring(ElementClickInterceptedException.class);
+    }
+    /**
+     * Master generic method to wait for any condition.
+     */
+    public <V> V waitForCondition(Function<WebDriver, V> condition, int timeoutInSeconds) {
+        return getFluentWait(Duration.ofSeconds(timeoutInSeconds), defaultPolling)
+                .until(condition);
+    }
+    /**
+     * Reusable helper for Element Visibility (Returns WebElement)
+     */
+    public WebElement waitForVisibility(By locator, int timeoutInSeconds) {
+        return waitForCondition(ExpectedConditions.visibilityOfElementLocated(locator), timeoutInSeconds);
+    }
+
+    /**
+     * Reusable helper for Element Clickability (Returns WebElement)
+     */
+    public WebElement waitForElementToBeClickable(By locator, int timeoutInSeconds) {
+        return waitForCondition(ExpectedConditions.elementToBeClickable(locator), timeoutInSeconds);
+    }
+
+    /**
+     * Reusable helper to wait for text to change or be present
+     */
+    public Boolean waitForTextToBePresent(By locator, String text, int timeoutInSeconds) {
+        return waitForCondition(ExpectedConditions.textToBePresentInElementLocated(locator, text), timeoutInSeconds);
+    }
+    public void handlingWindows(String windowTitle) {
+        String mainWindow = driver.getWindowHandle();
+        Set<String> allWindows = driver.getWindowHandles();
+        for (String window : allWindows){
+            if(!window.equals(mainWindow)){
+                driver.switchTo().window(windowTitle);
+                driver.close();
+            }
+        }
+        driver.switchTo().window(mainWindow);
     }
 
 }

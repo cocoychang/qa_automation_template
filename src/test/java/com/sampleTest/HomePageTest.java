@@ -13,14 +13,6 @@ import static com.driverInstance.DriverManager.getDriver;
 
 public class HomePageTest extends BaseClass {
 
-//    private LoginPage loginPage;
-//    private HomePage homePage;
-//
-//    @BeforeMethod
-//    public void setupPages() {
-//        loginPage = new LoginPage(getDriver());
-//        homePage  = new HomePage(getDriver());
-//    }
 
     @Test(dataProvider="validLoginData", dataProviderClass = DataProviders.class)
     public void verifyOrangeHRMLogo(String username, String password) {

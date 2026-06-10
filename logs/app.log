@@ -2801,3 +2801,38 @@ Session ID: 329e7299-f422-4b9e-9fd5-5e656c998c4f
 2026-05-24 09:42:14 [TestNG-tests-1] [Thread-42] - WebDriver instance is closed.
 2026-05-24 09:42:15 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: Logout
 2026-05-24 09:42:15 [TestNG-tests-2] [Thread-43] - WebDriver instance is closed.
+2026-06-10 20:32:35 [main] [Thread-1] - config.properties file loaded
+2026-06-10 20:32:36 [TestNG-tests-2] [Thread-43] - Setting up WebDriver for: HomePageTest on browser: fireFox
+2026-06-10 20:32:36 [TestNG-tests-1] [Thread-42] - Setting up WebDriver for: HomePageTest on browser: chrome
+2026-06-10 20:32:45 [TestNG-tests-1] [Thread-42] - ChromeDriver Instance is created.
+2026-06-10 20:32:48 [TestNG-tests-1] [Thread-42] - WebDriver instance is created.
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 42
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with name: username
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - Entered text on Element with name: username-->Admin
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with name: password
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - Entered text on Element with name: password-->admin123
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with text: Login
+2026-06-10 20:32:50 [TestNG-tests-1] [Thread-42] - clicked an element-->Element with text: Login
+2026-06-10 20:32:52 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-10 20:32:52 [TestNG-tests-1] [Thread-42] - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-10 20:32:52 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with text: FirstNameTest LastNameTest
+2026-06-10 20:32:52 [TestNG-tests-1] [Thread-42] - clicked an element-->Element with text: FirstNameTest LastNameTest
+2026-06-10 20:32:52 [TestNG-tests-1] [Thread-42] - Applied the border with color green to element: Element with text: Logout
+2026-06-10 20:32:53 [TestNG-tests-1] [Thread-42] - clicked an element-->Element located using: By.xpath: //a[text()='Logout']
+2026-06-10 20:32:53 [TestNG-tests-1] [Thread-42] - WebDriver instance is closed.
+2026-06-10 20:32:55 [TestNG-tests-2] [Thread-43] - FirefoxDriver Instance is created.
+2026-06-10 20:32:57 [TestNG-tests-2] [Thread-43] - WebDriver instance is created.
+2026-06-10 20:32:59 [TestNG-tests-2] [Thread-43] - for test verifyOrangeHRMLogo ActionDriver initialized for thread: 43
+2026-06-10 20:32:59 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with name: username
+2026-06-10 20:32:59 [TestNG-tests-2] [Thread-43] - Entered text on Element with name: username-->Admin
+2026-06-10 20:32:59 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with name: password
+2026-06-10 20:32:59 [TestNG-tests-2] [Thread-43] - Entered text on Element with name: password-->admin123
+2026-06-10 20:33:00 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with text: Login
+2026-06-10 20:33:01 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: Login
+2026-06-10 20:33:01 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-10 20:33:01 [TestNG-tests-2] [Thread-43] - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-10 20:33:01 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with text: FirstNameTest LastNameTest
+2026-06-10 20:33:01 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: FirstNameTest LastNameTest
+2026-06-10 20:33:01 [TestNG-tests-2] [Thread-43] - Applied the border with color green to element: Element with text: Logout
+2026-06-10 20:33:02 [TestNG-tests-2] [Thread-43] - clicked an element-->Element with text: Logout
+2026-06-10 20:33:03 [TestNG-tests-2] [Thread-43] - WebDriver instance is closed.
